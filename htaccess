@@ -1,0 +1,9 @@
+# HTID:1898390: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:1898390:
+
+<IfModule mod_php7.c>
+php_value upload_max_filesize 1000M
+php_value post_max_size 1000M
+php_value max_file_uploads 150
+</IfModule>
